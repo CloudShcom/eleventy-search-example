@@ -1,0 +1,22 @@
+---
+layout: base
+---
+
+<h1>Search</h1>
+
+<form id="cloudsh">
+  <input type="text" id="q"/>
+  <button>Search</button>
+</form>
+
+<div id="results"></div>
+
+
+<script src="https://app.cloudsh.com/js/cloudsh.js"></script>
+<script>
+  var CshConf = {
+    token: "{{ site.cloudsh_token }}",
+    formId: "#cloudsh",
+    resultsId: "#results",
+  };
+</script>

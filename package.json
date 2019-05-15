@@ -1,0 +1,11 @@
+{
+  "name": "11ty",
+  "version": "1.0.0",
+  "description": "Sample CloudSh Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dusty Candland",
+  "license": "ISC"
+}
